@@ -4,13 +4,13 @@ const readline = require('readline');
 const { URL } = require('url');
 
 const CONFIG = {
-  apiKey: '579cdb0bfd3757',
+  apiKey: 'your-2captcha-api',
   // Use the token as obtained initially. It will be auto-refreshed if needed.
   token: 'Bearer eyJhbGci...',
-  userId: 5783,
-  agentId: 746797,
-  sessionTypeId: 5,
-  entryFees: 0.01,
+  userId: USERID,
+  agentId: AGENTID,
+  sessionTypeId: 5, // Dobby arena = 5 Normal Arena = 1 
+  entryFees: 0.01, // pick fees you like 0.1 0.01 0.001
   // Refresh token endpoint and credentials (update these values per your API spec)
   refreshUrl: 'https://dapp-backend-4x.fractionai.xyz/api3/auth/refresh',
   refreshPayload: {
