@@ -4,7 +4,7 @@ const readline = require('readline');
 const { URL } = require('url');
 
 const CONFIG = {
-  apiKey: '579cdb0bfd37570c409d688e2be91d47',
+  apiKey: '579cdb0bfd3757',
   // Use the token as obtained initially. It will be auto-refreshed if needed.
   token: 'Bearer eyJhbGci...',
   userId: 5783,
